@@ -14,5 +14,5 @@ public class User {
     private String password;
 
     // 추가로 3개의 attribute 를 만들기
-
+    // !!!!!!!!!!!!!!!!!!!!!1
 }
