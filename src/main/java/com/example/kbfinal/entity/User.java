@@ -1,13 +1,17 @@
 package com.example.kbfinal.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 // lombok 사용할것
 @Entity
 @Data
+@Setter @Getter
+@RequiredArgsConstructor
 public class User {
 
+    @Id
+    @GeneratedValue
     private Long id;
 
     private String username;
