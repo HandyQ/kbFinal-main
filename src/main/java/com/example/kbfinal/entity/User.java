@@ -6,8 +6,6 @@ import lombok.*;
 // lombok 사용할것
 @Entity
 @Data
-@Setter @Getter
-@RequiredArgsConstructor
 public class User {
 
     @Id
